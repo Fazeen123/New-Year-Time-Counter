@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Margarine&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Arsenal SC','Margarine';   
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.5)),url('/pexels-photo-1697902.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.box{
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+.num{
+    padding: 5px;
+    font-size: 20px;
+    transition: all 0.4s linear;
+
+}
+
+body h5{
+    font-size: 16px;
+    transition: all 0.4s linear;
+    
+}
+.newyear{
+    padding-top:20px ;
+    font-family: 'Margarine';
+    font-size: 32px;
+    letter-spacing: 1px;
+    transition: all 0.4s linear;
+
+}
+.num-name{
+    font-size: 12px;
+    font-weight: 450;
+    transition: all 0.4s linear;
+}
+
+@media screen and (min-width:720px) {
+
+    body h5{
+        font-size: 18px;
+    }
+    .newyear{
+        font-size: 36px;
+    }
+    .num{
+        font-size: 18px;
+    }
+    .num-name{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    body h5{
+        font-size: 20px;
+    }
+    .newyear{
+        font-size: 44px;
+    }
+    .num{
+        font-size: 20px;
+    }
+    .num-name{
+        font-size: 16px;
+    }
+}
